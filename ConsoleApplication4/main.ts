@@ -1,11 +1,11 @@
-const name_ru: string = "Олеся Ярыгина";
-const name_en: string = "Olesya Yarygina";
-const num: number = 29;
-const group: string = "М3О-103БВ-26";
-const lang: string = "TypeScript";
+const name_ru = "Олеся Ярыгина";
+const name_en = "Olesya Yarygina";
+const num = 29;
+const group = "М3О-103БВ-26";
+const lang = "TypeScript";
 
-const control: number = 304 * num;
-const student_id: string = group + "/" + num;
+const control = 304 * num;
+const student_id = group + "/" + num;
 
 console.log("Hello to 304 from " + name_en + ", number " + num + ", group " + group + "!");
 console.log("Привет, 304! Это " + name_ru + ", номер " + num + ", группа " + group + "!");

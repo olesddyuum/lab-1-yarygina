@@ -1,29 +1,16 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <windows.h>
-
-//принудительно собираем строки в кодировке UTF-8
-#pragma execution_character_set("utf-8")
 
 int main() {
-    // Включаем кодировку UTF-8 (65001) для вывода в консоль 
-    SetConsoleCP(65001);
-    SetConsoleOutputCP(65001);
-
-    
-    char name_ru[] = "Олеся Ярыгина";
-    char name_en[] = "Olesya Yarygina";
-    int num = 29;
-    char group[] = "М3О-103БВ-26";
-    char lang[] = "C";
-
-    int control = 304 * num;
+    const char* student_name_en = "Olesya Yarygina";
+    int student_number = 29;
+    const char* group_name = "M3O-103BV-26";
+    const char* language_name = "C";
+    int control_value = 304 * student_number; // 8816
 
    
-    printf("Hello to 304 from %s, number %d, group %s!\n", name_en, num, group);
-    printf("Привет, 304! Это %s, номер %d, группа %s!\n", name_ru, num, group);
-    printf("Student ID: %s/%d | Language: %s | Control: %d\n", group, num, lang, control);
-    printf("Student number verification: %d\n", num);
+    printf("Hello to %d from %s, number %d, group %s!\n", control_value, student_name_en, student_number, group_name);
+    printf("Student ID: %s/%02d | Language: %s | Control: %d\n", group_name, student_number, language_name, control_value);
+    printf("Student number verification: %d\n", student_number);
 
     return 0;
 }
