@@ -57,5 +57,5 @@
 
 
 13. **Rust (`main.rs`)**
-    Компиляция и запуск: & "C:\Users\Yarygina\.cargo\bin\rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe
+    Компиляция и запуск: & "C:/Users/Yarygina/.cargo/bin/rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe
 
