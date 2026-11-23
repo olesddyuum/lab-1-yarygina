@@ -42,3 +42,11 @@
 
 10. **Assembler (`main.s`)**
     Компиляция и запуск: `as main.s -o main.o && gcc main.o -o app_asm && ./app_asm`
+11. **Bash (`main.sh`)**
+    Запуск: `C:\msys64\usr\bin\bash.exe main.sh`
+
+12. **F# (`main.fs`)**
+    Запуск: `dotnet fsi main.fs`
+
+13. **Rust (`main.rs`)**
+    Компиляция и запуск: `rustc main.rs -o app_rs && ./app_rs`
