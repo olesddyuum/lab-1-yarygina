@@ -53,7 +53,8 @@
     Запуск: `C:\msys64\usr\bin\bash.exe main.sh`
 
 12. **F# (`main.fs`)**
-    Запуск: `echo "#quit;;" | dotnet fsi main.fs`
+    Запуск: dotnet fsi --nologo main.fs
+
 
 13. **Rust (`main.rs`)**
     Компиляция и запуск: & "$env:USERPROFILE\.cargo\bin\rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe
