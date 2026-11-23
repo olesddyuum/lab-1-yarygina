@@ -14,16 +14,20 @@
 ## Список файлов и команды запуска (из папки `ConsoleApplication4`)
 
 1. **C++ (`ConsoleApplication4.cpp`)**
-   Компиляция и запуск: `cl ConsoleApplication4.cpp /Fe:app_cpp.exe; ./app_cpp.exe`
+   Компиляция и запуск: [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; cl /nologo /EHsc ConsoleApplication4.cpp /Fe:app_cpp.exe; ./app_cpp.exe
+
 
 2. **C (`main.c`)**
-   Компиляция и запуск: `cl main.c /Fe:app_c.exe; ./app_c.exe`
+   Компиляция и запуск: [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; cl /nologo main.c /Fe:app_c.exe; ./app_c.exe
+
 
 3. **Python (`main.py`)**
-   Запуск: `python main.py`
+   Запуск: python main.py
+
 
 4. **JavaScript (`main.js`)**
-   Запуск: `node main.js`
+   Запуск: node main.js
+
 
 5. **TypeScript (`main.ts`)**
    Запуск: node main.ts
@@ -34,7 +38,8 @@
 
 
 7. **Java (`main.java`)**
-   Запуск: `java main.java`
+   Запуск: java "-Dfile.encoding=UTF-8" "-Dstdout.encoding=UTF-8" main.java
+
 
 8. **Go (`main.go`)**
    Запуск: & "C:\Program Files\Go\bin\go.exe" run main.go
@@ -50,7 +55,8 @@
 
 
 11. **Bash (`main.sh`)**
-    Запуск: `C:\msys64\usr\bin\bash.exe main.sh`
+    Запуск: C:/msys64/usr/bin/bash.exe main.sh
+
 
 12. **F# (`main.fs`)**
     Запуск: dotnet fsi --nologo main.fs
@@ -58,4 +64,5 @@
 
 13. **Rust (`main.rs`)**
     Компиляция и запуск: & "C:/Users/Yarygina/.cargo/bin/rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe
+
 
