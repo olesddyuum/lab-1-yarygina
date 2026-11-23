@@ -7,17 +7,17 @@
 * Контрольное число: 8816
 
 ## Описание работы
-В рамках лабораторной работы реализованы программы вывода приветствия на разных языках программирования с использованием их синтаксических особенностей.
+В рамках лабораторной работы реализованы программы вывода приветствия на 13 языках программирования с использованием их синтаксических особенностей.
 
 По заданию для 29 варианта (`29 mod 5 = 4`) код на языке Assembler разработан в отдельной ветке `feature/asm` и объединён с основной веткой `main`.
 
 ## Список файлов и команды запуска (из папки `ConsoleApplication4`)
 
 1. **C++ (`ConsoleApplication4.cpp`)**
-   Компиляция и запуск: `g++ ConsoleApplication4.cpp -o app_cpp && ./app_cpp`
+   Компиляция и запуск: `C:\msys64\ucrt64\bin\g++.exe ConsoleApplication4.cpp -o app_cpp.exe; ./app_cpp.exe`
 
 2. **C (`main.c`)**
-   Компиляция и запуск: `gcc main.c -o app_c && ./app_c`
+   Компиляция и запуск: `C:\msys64\ucrt64\bin\gcc.exe main.c -o app_c.exe; ./app_c.exe`
 
 3. **Python (`main.py`)**
    Запуск: `python main.py`
@@ -41,12 +41,13 @@
    Запуск: `swipl -q -s main.pl -g main -t halt`
 
 10. **Assembler (`main.s`)**
-    Компиляция и запуск: `as main.s -o main.o && gcc main.o -o app_asm && ./app_asm`
+    Компиляция и запуск: `C:\msys64\ucrt64\bin\as.exe main.s -o main.o; C:\msys64\ucrt64\bin\gcc.exe main.o -o app_asm.exe; ./app_asm.exe`
+
 11. **Bash (`main.sh`)**
     Запуск: `C:\msys64\usr\bin\bash.exe main.sh`
 
 12. **F# (`main.fs`)**
-    Запуск: `dotnet fsi main.fs`
+    Запуск: `echo "#quit;;" | dotnet fsi main.fs`
 
 13. **Rust (`main.rs`)**
-    Компиляция и запуск: `rustc main.rs -o app_rs && ./app_rs`
+    Компиляция и запуск: `& "$env:USERPROFILE\.cargo\bin\rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe`
