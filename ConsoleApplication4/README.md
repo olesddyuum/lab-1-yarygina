@@ -41,7 +41,8 @@
 
 
 9. **Prolog (`main.pl`)**
-   Запуск: `swipl -q -s main.pl -g main -t halt`
+   Запуск:& "C:\Program Files\swipl\bin\swipl.exe" -q -s main.pl -g main -t halt
+
 
 10. **Assembler (`main.s`)**
     Компиляция и запуск: `C:\msys64\ucrt64\bin\as.exe main.s -o main.o; C:\msys64\ucrt64\bin\gcc.exe main.o -o app_asm.exe; ./app_asm.exe`
