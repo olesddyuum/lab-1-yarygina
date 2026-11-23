@@ -7,24 +7,38 @@
 * Контрольное число: 8816
 
 ## Описание работы
-В рамках лабораторной работы написаны программы на 13 обязательных языках программирования и 1 дополнительном. Все файлы распределены по проекту и добавлены в репозиторий Git.
+В рамках лабораторной работы реализованы программы вывода приветствия на разных языках программирования с использованием их синтаксических особенностей.
 
-В соответствии с заданием для 29 варианта программа на языке Ассемблер изначально создавалась в отдельной ветке feature/asm, после чего была объединена с основной веткой main.
+По заданию для 29 варианта (`29 mod 5 = 4`) код на языке Assembler разработан в отдельной ветке `feature/asm` и объединён с основной веткой `main`.
 
-## Список файлов и языков:
-1. ConsoleApplication4.cpp — C++
-2. main.py — Python
-3. main.js — JavaScript
-4. main.cs — C#
-5. main.java — Java
-6. main.ts — TypeScript
-7. main.go — Go
-8. main.c — C
-9. main.fs — F#
-10. main.rs — Rust
-11. main.sh — Bash
-12. main.pl — Prolog
-13. main.s — Assembler
-14. main.php — PHP (дополнительный язык)
+## Список файлов и команды запуска (из папки `ConsoleApplication4`)
 
-Скриншоты выполнения всех программ сохранены в отдельной папке.
+1. **C++ (`ConsoleApplication4.cpp`)**
+   Компиляция и запуск: `g++ ConsoleApplication4.cpp -o app_cpp && ./app_cpp`
+
+2. **C (`main.c`)**
+   Компиляция и запуск: `gcc main.c -o app_c && ./app_c`
+
+3. **Python (`main.py`)**
+   Запуск: `python main.py`
+
+4. **JavaScript (`main.js`)**
+   Запуск: `node main.js`
+
+5. **TypeScript (`main.ts`)**
+   Запуск: `ts-node main.ts`
+
+6. **C# (`main.cs`)**
+   Запуск: `dotnet run`
+
+7. **Java (`main.java`)**
+   Запуск: `java main.java`
+
+8. **Go (`main.go`)**
+   Запуск: `go run main.go`
+
+9. **Prolog (`main.pl`)**
+   Запуск: `swipl -q -s main.pl -g main -t halt`
+
+10. **Assembler (`main.s`)**
+    Компиляция и запуск: `as main.s -o main.o && gcc main.o -o app_asm && ./app_asm`
