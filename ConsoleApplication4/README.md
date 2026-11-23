@@ -30,7 +30,8 @@
 
 
 6. **C# (`main.cs`)**
-   Запуск: `dotnet run`
+   Запуск: csc main.cs; ./main.exe
+
 
 7. **Java (`main.java`)**
    Запуск: `java main.java`
