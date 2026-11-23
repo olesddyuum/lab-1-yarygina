@@ -56,4 +56,4 @@
     Запуск: `echo "#quit;;" | dotnet fsi main.fs`
 
 13. **Rust (`main.rs`)**
-    Компиляция и запуск: `& "$env:USERPROFILE\.cargo\bin\rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe`
+    Компиляция и запуск: & "$env:USERPROFILE\.cargo\bin\rustc.exe" main.rs -o app_rs.exe; ./app_rs.exe
