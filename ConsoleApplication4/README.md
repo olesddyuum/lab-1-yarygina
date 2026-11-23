@@ -45,7 +45,9 @@
 
 
 10. **Assembler (`main.s`)**
-    Компиляция и запуск: `$env:Path = "C:\msys64\ucrt64\bin;" + $env:Path; gcc main.s -o app_asm.exe; ./app_asm.exe`
+    Компиляция и запуск:$env:Path = "C:\msys64\ucrt64\bin;" + $env:Path; gcc main.s -o app_asm.exe; ./app_asm.exe
+
+
 
 11. **Bash (`main.sh`)**
     Запуск: `C:\msys64\usr\bin\bash.exe main.sh`
