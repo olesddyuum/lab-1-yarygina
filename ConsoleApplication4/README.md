@@ -26,7 +26,8 @@
    Запуск: `node main.js`
 
 5. **TypeScript (`main.ts`)**
-   Запуск: `ts-node main.ts`
+   Запуск: node main.ts
+
 
 6. **C# (`main.cs`)**
    Запуск: `dotnet run`
