@@ -14,10 +14,10 @@
 ## Список файлов и команды запуска (из папки `ConsoleApplication4`)
 
 1. **C++ (`ConsoleApplication4.cpp`)**
-   Компиляция и запуск: `C:\msys64\ucrt64\bin\g++.exe ConsoleApplication4.cpp -o app_cpp.exe; ./app_cpp.exe`
+   Компиляция и запуск: `cl ConsoleApplication4.cpp /Fe:app_cpp.exe; ./app_cpp.exe`
 
 2. **C (`main.c`)**
-   Компиляция и запуск: `C:\msys64\ucrt64\bin\gcc.exe main.c -o app_c.exe; ./app_c.exe`
+   Компиляция и запуск: `cl main.c /Fe:app_c.exe; ./app_c.exe`
 
 3. **Python (`main.py`)**
    Запуск: `python main.py`
