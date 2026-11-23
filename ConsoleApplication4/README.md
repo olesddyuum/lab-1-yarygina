@@ -37,7 +37,8 @@
    Запуск: `java main.java`
 
 8. **Go (`main.go`)**
-   Запуск: `go run main.go`
+   Запуск: & "C:\Program Files\Go\bin\go.exe" run main.go
+
 
 9. **Prolog (`main.pl`)**
    Запуск: `swipl -q -s main.pl -g main -t halt`
