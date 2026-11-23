@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    const char* student_name_en = "Olesya Yarygina";
-    int student_number = 29;
-    const char* group_name = "M3O-103BV-26";
-    const char* language_name = "C";
-    int control_value = 304 * student_number; // 8816
-
-   
-    printf("Hello to %d from %s, number %d, group %s!\n", control_value, student_name_en, student_number, group_name);
-    printf("Student ID: %s/%02d | Language: %s | Control: %d\n", group_name, student_number, language_name, control_value);
-    printf("Student number verification: %d\n", student_number);
-
+    const char* name_en = "Olesya Yarygina";
+    const char* name_ru = "Олеся Ярыгина";
+    const char* group_en = "M3O-103BV-26";
+    const char* group_ru = "МЗО-103БВ-26";
+    int num = 29;
+    int ctrl = 304 * num;
+    printf("Hello to 304 from %s, number %d, group %s!\n", name_en, num, group_en);
+    printf("Привет, 304! Это %s, номер %d, группа %s!\n", name_ru, num, group_ru);
+    printf("Student ID: %s/%d | Language: C | Control: %d\n", group_ru, num, ctrl);
     return 0;
 }
